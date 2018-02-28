@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://www.springframework.org/tags" %>
 <%--
   Created by IntelliJ IDEA.
   User: Administrator
@@ -8,9 +9,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Spittr</title>
   </head>
   <body>
-  $END$
+    <h1>Welcome to Spittr</h1>
+    <a href="<c:url value="/sittles"/>">Spittles</a>
+    <a href="<c:url value="/sitter/register"/>">Register</a>
   </body>
 </html>
